@@ -1,5 +1,5 @@
 function pascalTriangle(numRows: number): number[][] {
-    let result: number[][] = [];
+    const result: number[][] = [];
 
     for (let index = 0; index < numRows; index++) {
         result.push(Array.from({ length: index + 1 }).map((_, itemIndex, array) => {
