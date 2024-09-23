@@ -13,7 +13,7 @@ function pascalTriangle(numRows: number): number[][] {
                 return 1
             }
 
-           return previousRow[itemIndex] + previousRow[itemIndex -1];
+           return previousRow[itemIndex] + previousRow[itemIndex - 1];
         }))
     }
 
